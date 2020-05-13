@@ -1,10 +1,6 @@
 {
-  "gameSettings": {
-    "spaceship": {
-      "nbQuestions": 5
-    }
-  },
   "silent": false,
   "editor": false,
-  "level-testing": false
+  "level-testing": false,
+  "view-testing": "playground"
 }

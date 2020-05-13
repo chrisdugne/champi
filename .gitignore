@@ -1,2 +1,5 @@
 assets/levels/level-editor/level-editor.json
 .build
+
+# osx
+*.DS_Store

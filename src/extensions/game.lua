@@ -40,12 +40,15 @@ function Game:onRun()
     {
       parent = App.hud,
       text = {
-        value = 'back',
-        fontSize = 50,
+        value = 'run',
+        fontSize = 30,
         color = App.colors.dark
       },
+      bg = {
+        width = 100
+      },
       x = W / 2,
-      y = H * 0.8,
+      y = H * 0.95,
       action = function()
         Router:open(App.screens.HOME)
       end
